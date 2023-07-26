@@ -1,0 +1,133 @@
+p{
+    color: orange;
+}
+/* .emma{
+    font-size: large;
+    color: aqua;
+} */
+.h2style{
+    color: purple;
+    font-size: 2.5rem;
+}
+#emma{
+    color: blue;
+    border: 2px;
+}
+.white{
+    color: white;
+    background-color: black;
+}
+.green{
+    color: green;
+}
+/* mobile view */
+@media(min-width: 280px){
+    body{
+        background-color: slategray;
+    }
+  
+    p{
+        margin: 0.5rem 10%;
+        color: black;
+        font-size: 2rem;
+    }
+    .emma{
+        font-size: larger;
+    }
+}
+/* tablet view */
+@media(min-width: 700px){
+    body{
+        background-color: greenyellow;
+    }
+    p{
+        margin: 0.5rem 10%;
+        color: black;
+        font-size: 1.5rem;
+    }
+    .emma{
+        font-size: x-large;
+    }
+}
+/* desktop view */
+@media(min-width: 1000px){
+    body{
+        background-color: lightgoldenrodyellow;
+    }
+    .emma{
+        font-size: xx-large;
+    }
+    p{
+        margin: 0.5rem 10%;
+        color: black;
+        font-size: 1rem;
+    }
+}
+.two-background-images{
+    background-image: url(./img/ball.jpeg), url(./img/stad.jpeg);
+    background-position: left, right;
+    background-repeat: no-repeat;
+    /* height: fit-content;
+    width: fit-content; */
+    /* background-size: auto; */
+}
+body{
+    background-image: url(./img/wallpaper2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-origin: content-box;          
+}
+.container{
+    aspect-ratio: 1920px by 1080px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 14px 16px;
+    float: left;
+}
+.abt_photos{
+    aspect-ratio: 1920px by 1080px;
+    max-width: 100%;
+    height: auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+.C3{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.C3 a{
+    display: block;
+    color: orange;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+ol li{
+    list-style-type:upper-alpha;
+    overflow: hidden;
+    float: none;
+}
